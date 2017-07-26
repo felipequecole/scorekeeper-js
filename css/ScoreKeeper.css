@@ -6,3 +6,20 @@
 .loser{
 	color:red;
 }
+
+.horcenter{
+	vertical-align: center;
+}
+
+.scorebtn {
+	margin-top: 0px;
+	padding-top: 33px;
+	padding-bottom: 33px; 
+	margin-bottom: 0px;
+}
+
+*{
+	background-color: rgb(40,40,40);
+	color: white;
+}
+

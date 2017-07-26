@@ -3,14 +3,56 @@
 <head>
 	<title>Score Keeper</title>
 	<link rel="stylesheet" type="text/css" href="css/ScoreKeeper.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-	<h1 id="score"><span id="p1score">0</span> to <span id="p2score">0</span></h1>
-	<p>Playing to: <span id="wscore">5</span></p>
-	<input type="number" name="nroRounds" id="nroRounds">
-	<button id="p1">Player One</button>
-	<button id="p2">Player Two</button>
-	<button id="r">Reset</button>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1 align="center">
+					Awesome ScoreKeeper!
+				</h1>
+			</div>
+		</div>
+		<div class="row horcenter">
+			<div class="col-xs-4" align="right">
+				<button class="scorebtn btn-primary" id="p1">P1 Scored</button>
+			</div>
+			<div class="col-xs-4" align="center">
+				<h1 id="score"><span id="p1score">0</span> to <span id="p2score">0</span></h1>
+				<p>Playing to: <span id="wscore">5</span></p>
+			</div>
+			<div class="col-xs-4" align="left">
+				<button id="p2" class="btn-success scorebtn">P2 Scored</button>				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12" align="center">
+				<button class="btn btn-danger" id="r">Reset</button>
+			</div>
+		</div>
+		<div class="row" align="center" style="margin-top: 15px">
+		<div class="col-xs-5"></div>
+			<div class="col-xs-2">
+			<div class="form-group">
+				<label for="nroRounds"> Winning Score</label>
+				<input type="number" class="form-control" name="nroRounds" id="nroRounds">	
+			</div>
+			</div>	
+		<div class="col-xs-5"></div>
+		</div>
+	</div>
+
+
+
+
+
 	<script type="text/javascript" src="js/ScoreKeeper.js"></script>
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
