@@ -1,0 +1,8 @@
+.winner{
+	color: green;
+	font-size: 100px;
+}
+
+.loser{
+	color:red;
+}
